@@ -32,5 +32,6 @@ public class CountDownLatchTest {
 
         latch1.await();
         System.out.println("Latch1 Done");
+        service.shutdown();
     }
 }
